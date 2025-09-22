@@ -1,9 +1,9 @@
 ***Assignment 1: Abstract Factory and Factory Method***
 
-This project demonstrates the use of the Abstract Factory and Factory Method design patterns in Java.  
-The scenario is a smart home system where two brands (Brand A and Brand B) each produce two devices: a Smart Bulb and a Smart Lock.  
+This project demonstrates the use of the Abstract Factory and Factory Method design patterns in a Java program.  
+The scenario is a smart home system where two brands (Brand A & Brand B) each have two devices: a Smart Bulb, and a Smart Lock.  
 
-The Abstract Factory (`SmartDeviceFactory`) allows us to create families of products (Bulb + Lock) without specifying their concrete classes.  
+The Abstract Factory `SmartDeviceFactory` lets us make  families of products (Bulb + Lock) without specifying their concrete classes.  
 The Factory Method is used inside the factories to set device-specific usage values (power for bulbs, battery for locks) after the object is created.  
 
 **Repository Structure**
@@ -35,9 +35,12 @@ README.md # Project description and instructions
 
 **Output**
 
-Brand A Bulb Power Usage: 10W  
-Brand B Lock Battery Usage: 25%  
-<img width="936" height="500" alt="AbstractFactory_Output" src="https://github.com/user-attachments/assets/0f2d03bc-d922-47b4-8a5f-e1b3bf0d3316" />
+The power usage of the Brand A Bulb is: 10W  
+The battery usage of the Brand B lock is: 25%  
+  
+Process finished with exit code 0  
+
+<img width="945" height="482" alt="SOFE3650_Assignment1_Output" src="https://github.com/user-attachments/assets/e6a0e02b-3487-4765-95cc-e90574f279f6" />
 
 
 
