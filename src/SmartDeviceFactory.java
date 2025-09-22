@@ -1,4 +1,4 @@
 public interface SmartDeviceFactory {
-    Bulb createBulb();
-    Lock createLock();
+    Bulb createBulb(); //each factory creates a Bulb
+    Lock createLock(); //each factory creates a Lock
 }

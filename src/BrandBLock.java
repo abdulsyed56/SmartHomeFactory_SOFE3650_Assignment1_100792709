@@ -1,11 +1,6 @@
 public class BrandBLock implements Lock {
-    private int batteryUsage;
+    private int batteryUsage; // store battery usage
 
-    public void setBatteryUsage(int usage) {
-        batteryUsage = usage;
-    }
-
-    public int getBatteryUsage() {
-        return batteryUsage;
-    }
+    public int getBatteryUsage() { return batteryUsage; }
+    public void setBatteryUsage(int percent) { this.batteryUsage = percent; }
 }

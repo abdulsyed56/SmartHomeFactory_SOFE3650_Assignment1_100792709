@@ -1,13 +1,13 @@
 public class BrandBFactory implements SmartDeviceFactory {
     public Bulb createBulb() {
-        BrandBBulb b = new BrandBBulb();
-        b.setPowerUsage(DataReader.getPower("BrandB"));
+        Bulb b = new BrandBBulb(); // make a Brand B bulb
+        b.setPowerUsage(ExternalTestData.getPower("BrandB")); // set value after creation
         return b;
     }
 
     public Lock createLock() {
-        BrandBLock l = new BrandBLock();
-        l.setBatteryUsage(DataReader.getBattery("BrandB"));
+        Lock l = new BrandBLock(); // make a Brand B lock
+        l.setBatteryUsage(ExternalTestData.getBattery("BrandB")); // set value after creation
         return l;
     }
 }
