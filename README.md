@@ -11,7 +11,7 @@ The Factory Method is used inside the factories to set device-specific usage val
 SmartHomeFactory  
 	src/  
 
-  *Java Files in Source File*
+  *Java Files in Source File*  
 		SmartDeviceFactory.java 
 		BrandAFactory.java # Concrete factory for Brand A  
 		BrandBFactory.java # Concrete factory for Brand B  
@@ -39,6 +39,7 @@ Brand A Bulb Power Usage: 10W
 Brand B Lock Battery Usage: 25%
 <img width="936" height="500" alt="AbstractFactory_Output" src="https://github.com/user-attachments/assets/0f2d03bc-d922-47b4-8a5f-e1b3bf0d3316" />
 <img width="936" height="500" alt="AbstractFactory_Output" src="https://github.com/user-attachments/assets/8194adbc-488e-413b-aa48-a0092ed1f8a9" />
+
 
 
 
