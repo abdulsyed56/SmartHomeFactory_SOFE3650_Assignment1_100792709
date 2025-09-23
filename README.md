@@ -10,8 +10,7 @@ The Factory Method is used inside the factories to set device-specific usage val
   
 SmartHomeFactory  
 	src/  
-
-  *Java Files in Source File*  
+	*Java Files in Source File*  
 		SmartDeviceFactory.java   
 		BrandAFactory.java # Concrete factory for Brand A  
 		BrandBFactory.java # Concrete factory for Brand B  
@@ -56,6 +55,7 @@ The battery usage of the Brand B lock is: 25%
 Process finished with exit code 0  
 
 <img width="945" height="482" alt="SOFE3650_Assignment1_Output" src="https://github.com/user-attachments/assets/e6a0e02b-3487-4765-95cc-e90574f279f6" />
+
 
 
 
