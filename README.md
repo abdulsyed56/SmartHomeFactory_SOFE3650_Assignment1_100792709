@@ -35,12 +35,25 @@ README.md # Project description and instructions
 
 **Output**
 
+1. create Bulb (Brand A)  
+	call factory: brandAfactory.createBulb()  
+	product method: bulbA.getPowerUsage  
+ 	This shows hoe the Abstract Factory returns the correct product and that the Factory-Method step sets the power value from `DataReader.java` external file.
+
+2. Create Lock (Brand B)
+	call factory: brandBfactory.createLock()  
+	product method: LockB.getBatteryUsage
+	This tells that a different factory will return the matching lock product and the usage battery value is set after creation.  
+  
+I ran the program from compiling the complete project in IntelliJ and running 'Main.main()' to get the output which is: 
+
 The power usage of the Brand A Bulb is: 10W  
 The battery usage of the Brand B lock is: 25%  
   
 Process finished with exit code 0  
 
 <img width="945" height="482" alt="SOFE3650_Assignment1_Output" src="https://github.com/user-attachments/assets/e6a0e02b-3487-4765-95cc-e90574f279f6" />
+
 
 
 
