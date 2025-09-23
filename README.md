@@ -22,9 +22,8 @@ SmartHomeFactory
 		BrandBLock.java # Brand B Lock implementation  
 		ExternalTestData.java # Simulated external data source  
 
-	test/  
-		Main.java # Test driver program  
-		
+	test/
+		Main.java # test driver program for output of program	
   
  diagrams/ # UML diagrams exported from Visual Paradigm  
  uml_smart_home_factory.png  
@@ -55,6 +54,7 @@ The battery usage of the Brand B lock is: 25%
 Process finished with exit code 0  
 
 <img width="945" height="482" alt="SOFE3650_Assignment1_Output" src="https://github.com/user-attachments/assets/e6a0e02b-3487-4765-95cc-e90574f279f6" />
+
 
 
 
